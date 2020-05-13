@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/* Desktop/Global View */
+:root {
+  --main-bg-color: #a5bfcd;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--main-bg-color);
+}
+
+/* Header */
+#nav {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+#nav li {
+  display: inline-block;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20;
+  padding: 30px;
+  font-size: 18px;
+}
+
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+}
+
+#heading {
+  /* TODO: actually roboto */
+  color: white;
+  font-weight: 600;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 100px;
+  margin-top: 60px;
+  margin-bottom: -50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+/* About */
+.about {
+  margin-top: 800px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  /* TODO: WHY ARE YOU NOT ALIGNED TO THE TOP :( */
+  align-items: flex-start;
+}
+
+.about img {
+  max-width: 50%;
+  height: 500px;
+}
+
+.about h3 {
+  color: white;
+  margin-top: -10px; /* TODO: fix this - align-items: flex-start Hard coded */
+}
+
+.about p {
+  color: white;
+}
+
+#about-writing {
+  margin-right: 120px;
+  margin-left: 30px;
+}
+
+/* Skills */
+.skills {
+  /* display: flex;
+  flex-direction: row;
+  align-items: flex-start; */
+}
+
+.skills h3 {
+  color: white;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.boxes h3 {
+  color: var(--main-bg-color);
+  text-align: center;
+}
+
+.skills-box {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  outline: 20px solid var(--main-bg-color);
+
+  /* TODO: kind of confused about this */
+  outline-offset: 0px;
+}
+
+.skills-box #code {
+  fill: var(--main-bg-color);
+  width: 180px;
+  display: block;
+  margin-left: auto;
+  /* margin-top: auto; */
+  /* margin-bottom: auto; */
+  margin-right: auto;
+}
+
+/* .skills-box #code-box {
+} */
+
+/* Tablet View */
+@media (max-width: 768px) {
+}
+
+/* Mobile View */
+@media (max-width: 400px) {
+}

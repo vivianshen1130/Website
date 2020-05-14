@@ -127,15 +127,19 @@ h3 {
   outline-offset: 0px;
 }
 
+/* .skills-box .icon {
+  fill: var(--main-bg-color);
+}
+
 .skills-box #code {
   fill: var(--main-bg-color);
   width: 180px;
   display: block;
   margin-left: auto;
   /* margin-top: auto; */
-  /* margin-bottom: auto; */
+/* margin-bottom: auto;
   margin-right: auto;
-}
+} */
 
 /* .skills-box #code-box {
 } */
